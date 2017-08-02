@@ -9,10 +9,10 @@ import org.springframework.stereotype.Service;
  *
  * Created by choi on 2017/8/1.
  */
-@Service
+//@Service
 public class UserSerivce {
 
-    @Autowired
+//    @Autowired
     private UserMapping userMapping;
 
     public User getUserInfo(){

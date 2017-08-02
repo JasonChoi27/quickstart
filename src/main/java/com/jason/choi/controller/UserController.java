@@ -12,14 +12,14 @@ import org.springframework.web.bind.annotation.ResponseBody;
  *
  * Created by choi on 2017/8/1.
  */
-@Controller
+//@Controller
 public class UserController {
 
-    @Autowired
+//    @Autowired
     private UserSerivce userService;
 
-    @RequestMapping(value = "/userinfo", method = RequestMethod.GET)
-    @ResponseBody
+//    @RequestMapping(value = "/userinfo", method = RequestMethod.GET)
+//    @ResponseBody
     public User getUserInfo(){
 
         User user = userService.getUserInfo();
